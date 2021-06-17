@@ -194,6 +194,7 @@ height: 100%;
     transition: .7s all ease-in-out;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
 
@@ -358,7 +359,7 @@ font-weight: 500;
 .attorneys-content a:hover{
     color: #ce5124 !important;
 }
-.langgu1st{text-align: center;margin-top: 34px;margin-bottom: 46px;}
+.langgu1st{text-align: center;margin-top: 118px;margin-bottom: 93px;}
 
 .langgu1st span{
     display: inline-block;
@@ -388,7 +389,7 @@ width: 53px;
 
 .inner_langu{
 
-
+margin-bottom: 100px;
 }
 
 .inner_langu h1{
@@ -410,89 +411,18 @@ font-family: 'Open Sans', sans-serif;
 .inner_langu h2{
 
 color: #e76128;
+
+font-family: 'Open Sans', sans-serif;
+
+font-weight: bold;
 }
 
-.contact-us{
-    padding: 75px 0;
-    background-color: #36226f;
-    margin-top: 68px;
-}
-
-.heading-2 span{
-    display: inline-block;
-
-    width: 0px;
-    
-    height: 5px;
-    
-    background: #f19a62;
-    transition: .2s all ease-in-out;
-
-
-
-
-}
-
-
-.contact-us:hover  .heading-2 span{
-    width: 80px;
-}
-.contact-us h2{
-    color: #fff;
-}
-
-.form-control {
-    display: block;
-    border: none;
-    border-radius: 0%;
-    width: 100%;
-    /* padding: .375rem .75rem; */
-    font-size: 1rem;
-    font-weight: 400;
-    /* line-height: 1.5; */
-    color: #000000;
-    background-color: #fff0;
-    /* background-clip: padding-box; */
-    border-bottom: 1px solid #cecfd0;
-    /* -webkit-appearance: none; */
-    -moz-appearance: none;
-    /* appearance: none; */
-    /* border-radius: .25rem; */
-    transition:none;
-    font-size: 18px;
-    color: #fff !important;
-    font-weight: 600;
-}
-
-.form-control:focus {
-    color: #212529;
-    background-color: rgba(255, 255, 255, 0);
-    border-color: #F2622C;
-    outline:none;
-     box-shadow:none;
-}
-.contact-btn button {
-    width: 180px;
-    height: 40px;
-    background-color: #F2622C;
-    color: #fff;
-    margin-top: 20px;
-    font-weight: 700;
-}
-.contact-btn button:hover{
-    background-color: #ce5225;
-    color: rgb(212, 212, 212);
-}
-.btn-check:focus+.btn, .btn:focus {
-    outline: none;
-    box-shadow:none;
-}
 
 
 .footer{
     background-color: #16102b;
     padding: 22px 0;
-    margin-top: 50px;
+    /* margin-top: 0px; */
 }
 
 .footer-content p{
@@ -512,3 +442,122 @@ color: #e76128;
 .footer-icon ul li a {
     color: #fff;
 }
+
+
+
+
+
+
+.contract_usd{
+    
+background-color: #36226f;
+    
+/* margin-bottom: -27px; */
+    
+padding-bottom: 69px;
+    
+padding-top: 30px;
+}
+
+.contract_usd form{
+
+text-align: center;
+}
+
+.contract_usd form input{color: white;width: 100%;background: transparent;border: none;border-bottom: 1px solid #564a98;margin-bottom: 15px;caret-color:white;font-family: 'Montserrat', sans-serif;font-weight: normal;}
+
+.contract_usd form input:focus-visible{
+outline: none;
+
+
+}
+.contract_usd form input::placeholder{
+color: white;
+
+}
+.contract_usd form textarea{
+
+width: 100%;
+
+color: white;
+
+background: transparent;
+
+border: none;
+
+border-bottom: 1px solid #564a98;
+
+margin-bottom: 15px;
+
+caret-color:white;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+    
+    .contract_usd form textarea:focus-visible{
+    outline: none;
+    
+    
+    }
+    .contract_usd form textarea::placeholder{
+    color: white;
+    }
+.contract_usd form input[type="submit"]{
+
+border: none;
+
+background: #e76128;
+
+color: white;
+
+width: 26%;
+
+height: 41px;
+
+text-transform: uppercase;
+
+/* font-family: 'Open Sans'; */
+
+font-weight: bold;
+
+transition: 0.5s all ease-in-out;
+
+font-family: 'Open Sans', sans-serif;
+}
+
+.contract_usd form input[type="submit"]:hover{
+background: transparent;
+border: 1px solid #e76128;
+
+
+}
+
+
+
+.contractv{
+    text-align: center;
+    margin-top: 51px;
+}
+
+
+.contractv span{
+    display: inline-block;
+    width: 0px;
+    height: 4px;
+    background: #f19a62;
+    margin-bottom: 19px;
+    transition: .2s all ease-in-out;
+}
+
+.contract_usd:hover .contractv span{
+    width: 53px;
+
+
+}
+
+
+
+
+.contractv h1{color: #fbfbfb;text-transform: uppercase;margin-bottom: 77px;font-family: 'Montserrat', sans-serif;font-weight: bold;}
+
